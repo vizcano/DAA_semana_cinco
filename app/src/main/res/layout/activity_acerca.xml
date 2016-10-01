@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jose.mascotas.AcercaActivity">
+
+    <include android:id="@+id/appBar"
+        layout="@layout/actionbar"></include>
+
+
+    <TextView
+        android:id="@+id/txtAcercaDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tTitulo"
+        android:textSize="@dimen/sizeAcerca"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/appBar"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtDesarrollado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvNombre"
+        android:layout_marginTop="@dimen/marginTextView"
+        android:layout_marginStart="@dimen/marginTextView"
+        android:textStyle="bold"
+        android:textSize="@dimen/sizeTextView"
+        android:layout_below="@id/txtAcercaDe"
+        android:layout_marginLeft="@dimen/marginTextView" />
+
+    <TextView
+        android:id="@+id/txtNombreDesarrollador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDesarrollador"
+        android:textSize="@dimen/sizeTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtDesarrollado"/>
+
+    <TextView
+        android:id="@+id/txtPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvNombrePais"
+        android:layout_marginTop="@dimen/marginTextView"
+        android:layout_marginStart="@dimen/marginTextView"
+        android:textStyle="bold"
+        android:textSize="@dimen/sizeTextView"
+        android:layout_below="@id/txtNombreDesarrollador"
+        android:layout_marginLeft="@dimen/marginTextView" />
+
+    <TextView
+        android:id="@+id/txtNombrePais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvPais"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sizeTextView"
+        android:layout_below="@id/txtPais"/>
+</RelativeLayout>

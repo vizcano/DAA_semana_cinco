@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="pnombre">nombre</string>
+    <string name="pemail">email</string>
+    <!-- Menu -->
+    <string name="menuFavoritos">Favoritos</string>
+    <string name="menuContacto">Contacto</string>
+    <string name="menuAcerca">Acerca de...</string>
+
+    <!-- Contacto -->
+    <string name="enviarComentario">Enviar</string>
+    <string name="tTituloContacto">Contacto</string>
+
+    <!-- Acerca de -->
+    <string name="tTitulo">Mascotas</string>
+    <string name="tvNombre">Nombre</string>
+    <string name="tvDesarrollador">Jose Miguel</string>
+    <string name="tvNombrePais">País</string>
+    <string name="tvPais">ESPAÑA</string>
+</resources>
